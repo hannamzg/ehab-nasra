@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(to bottom right, #caf0f8, #48cae4);
+}
+
+#theNavFirstPage{
+    border-radius: 1000px;
+    display: flex;
+    background-image: linear-gradient(to bottom right, #caf0f8, #48cae4);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#navbarNavDropdown{
+    justify-content: center !important;
+}
+
+#navbarNavDropdown li{
+   margin-inline: 30px;  
+   display: flex;
+   justify-content: center;
+}
+
+#logoFirstPageInNav{
+    width: 150px;
+}
+
+
+#navbarNavDropdown li a{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .theStartDivInfirstPage{
+    width: 100%;
+    height: 300px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+    background-image: linear-gradient(to bottom right,#5e60ce, #48cae4);
+ }
+
+
+
+
+
+
+
+
+
+ @media screen and (min-device-width: 550px) and (max-device-width: 1000px) { 
+    #navbarNavDropdown li a{
+        font-size: 25px;
+     }
+
+     #logoFirstPageInNav{
+        width: 110px;
+    }
+
+}
+
+
+@media screen and  (max-device-width: 550px) { 
+    
+
+     #navbarNavDropdown li a{
+        font-size: 20px;
+     }
+
+     #logoFirstPageInNav{
+        width: 80px;
+    }
+
+
+}

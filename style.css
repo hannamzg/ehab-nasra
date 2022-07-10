@@ -350,7 +350,7 @@ header{
 
    #mainImg{
       width: 300px;
-      height: 180px;
+      height: auto;
       max-width: 80vw;
    }
   

@@ -244,6 +244,46 @@ footer{
    margin-inline: 20px;
 }
 
+.divHaveSliderImg{
+   margin: 0 auto;
+   max-width: 1000px;
+   display: flex;
+  justify-content: center;
+   flex-direction: column;
+}
+
+#mainImgImgs{
+   margin: 0 auto;
+   width: 800px;
+   margin-block: 30px;
+   display: flex;
+   justify-content: center;
+}
+
+.imgsInphotoPage{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+
+.imgsinphotos{
+   display: flex;
+   flex-direction: row;
+   margin: 0 auto;
+   width: 300px;
+   padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
  @media screen and (min-device-width: 550px) and (max-device-width: 1000px) { 
@@ -424,14 +464,13 @@ footer{
    .fireLogoFirstPage img{
       width: 30px;
    }
+
    .fireLogoFirstPage h2{
       margin-inline: 20px;
       font-size: 18px;
       font-style: italic;
    
    }
-
-
 
    .divIntheFooter h2{
       font-size: 25px;

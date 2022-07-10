@@ -53,6 +53,22 @@ header{
 }
 
 
+.stkiyIcones{
+   position: fixed;
+   bottom: 0;
+   left: 10px;
+   display: flex;
+   flex-direction: column;
+   z-index: 1000;
+}
+
+.stkiyIcones a svg{
+   height: 60px;
+   margin-block: 10px;
+}
+
+
+
 #logoFirstPageInNav{
     width: 170px;
 }
@@ -102,7 +118,7 @@ header{
  
  .exblenAboutehabFistPage{
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 40px auto;
  }
 
  .exblenAboutehabFistPage p{
@@ -118,7 +134,7 @@ header{
   
  .exblenAboutehabFistPage h2{
     text-align: center;
-    margin-block: 25px;
+    margin-block: 55px;
     color: #5e60ce;
     font-weight: bold;
  }
@@ -161,8 +177,32 @@ header{
 
 
 
+.whyUsFirstPage{
+   margin: 0 auto;
+   max-width: 1000px;
+}
 
 
+.whyUsFirstPage h1{
+   color: #5e60ce;
+   margin-block: 50px;
+   font-size: 50px;
+}
+
+.fireLogoFirstPage{
+   display: flex;
+   align-items: center;
+   margin: 20px;
+}
+
+.fireLogoFirstPage img{
+   width: 70px;
+}
+.fireLogoFirstPage h3{
+   margin-inline: 20px;
+   font-style: italic;
+
+}
 
 
 
@@ -186,9 +226,10 @@ header{
         font-weight: bold;
      }
 
-
-
-
+      .stkiyIcones a svg{
+         height: 40px;
+         margin-block: 6px;
+      }
 
      .exblenAboutehabFistPage{
         margin: 20px 20px;
@@ -205,8 +246,6 @@ header{
      .exblenAboutehabFistPage h2{
         margin-block: 20px;
      }
-
-
 
 
       #rightButonImgSliderFirstPage{
@@ -226,6 +265,23 @@ header{
          max-width: 80vw;
       }
      
+
+
+      .whyUsFirstPage h1{
+         margin-inline: 20px;
+         margin-block: 40px;
+         font-size: 40px;
+      }
+      
+      .fireLogoFirstPage img{
+         width: 50px;
+      }
+      .fireLogoFirstPage h2{
+         margin-inline: 20px;
+         font-size: 30px;
+         font-style: italic;
+      
+      }
     
     
      
@@ -275,7 +331,10 @@ header{
         margin-block: 20px;
      }
 
-
+     .stkiyIcones a svg{
+      height: 40px;
+      margin-block: 6px;
+     }
 
 
      #rightButonImgSliderFirstPage{
@@ -296,7 +355,22 @@ header{
    }
   
      
-
+   .whyUsFirstPage h1{
+      margin-inline: 20px;
+      margin-block: 30px;
+      font-size: 30px;
+   }
+   
+   .fireLogoFirstPage img{
+      width: 30px;
+   }
+   .fireLogoFirstPage h2{
+      margin-inline: 20px;
+      font-size: 18px;
+      font-style: italic;
+   
+   }
+ 
    
 
 }

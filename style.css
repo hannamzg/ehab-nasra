@@ -198,10 +198,50 @@ header{
 .fireLogoFirstPage img{
    width: 70px;
 }
+
 .fireLogoFirstPage h3{
    margin-inline: 20px;
    font-style: italic;
+}
 
+footer{
+   background-image: linear-gradient(to bottom right,#5e60ce, #48cae4);
+   margin-block-start: 60px;
+}
+
+.divIntheFooter{
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   max-width: 1000px;
+}
+
+.divIntheFooter h2{
+   color: white;
+   text-align: center;
+   margin-block: 20px;
+   font-size: 40px;
+}
+
+.divIntheFooter iframe{
+   display: flex;
+   margin: 20px auto;
+   justify-content: center;
+   width: 600px;
+   height: 350px;
+}
+
+
+.iconsInTheFooter{
+   display: flex;
+   justify-content: center;
+}
+
+.iconsInTheFooter svg{
+   color: white;
+   height: 100px;
+   margin-inline: 20px;
 }
 
 
@@ -282,8 +322,28 @@ header{
          font-style: italic;
       
       }
-    
-    
+
+
+
+      
+         .divIntheFooter h2{
+            font-size: 30px;
+         }
+
+         .divIntheFooter iframe{
+            margin: 20px auto;
+            width: 400px;
+            height: 250px;
+         }
+
+         .iconsInTheFooter svg{
+            height: 50px;
+            margin-inline: 20px;
+            margin-block-start: 20px;
+         }
+
+            
+            
      
 
 }
@@ -369,6 +429,25 @@ header{
       font-size: 18px;
       font-style: italic;
    
+   }
+
+
+
+   .divIntheFooter h2{
+      font-size: 25px;
+   }
+
+   .divIntheFooter iframe{
+      margin: 20px auto;
+      width: 300px;
+      height: 200px;
+      max-width: 70vw;
+   }
+
+   .iconsInTheFooter svg{
+      height: 30px;
+      margin-inline: 7px;
+      margin-block-start: 20px;
    }
  
    

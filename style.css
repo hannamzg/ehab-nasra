@@ -160,6 +160,9 @@ header{
     border-radius: 50%;
 }
 
+
+
+
 #leftButonImgSliderFirstPage{
     position: absolute;
     left: 10px;
@@ -252,13 +255,7 @@ footer{
    flex-direction: column;
 }
 
-#mainImgImgs{
-   margin: 0 auto;
-   width: 800px;
-   margin-block: 30px;
-   display: flex;
-   justify-content: center;
-}
+
 
 .imgsInphotoPage{
    display: flex;
@@ -266,6 +263,22 @@ footer{
    
 }
 
+.bigImgInimgsPage{
+   position: relative;
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   margin:  0 auto;
+}
+
+
+#mainImgImgs{
+   margin: 0 auto;
+   width: 800px;
+   margin-block: 30px;
+   display: flex;
+   justify-content: center;
+}
 .imgsinphotos{
    display: flex;
    flex-direction: row;
@@ -275,11 +288,31 @@ footer{
 }
 
 
+#rightBtnunImgPage{
+   position: absolute;
+   right: 10px;
+   height: 70px;
+   width: 70px;
+   background-color: white;
+   border-radius: 50%;
+}
+
+#leftBtnunImgPage{
+   position: absolute;
+   left: 10px;
+   height: 70px;
+   width: 70px;
+   background-color: white;
+   border-radius: 50%;
+}
 
 
-
-
-
+#video{
+   display: flex;
+   max-width: 1000px;
+   margin: 50px auto;
+   width: 800px;
+}
 
 
 
@@ -382,8 +415,44 @@ footer{
             margin-block-start: 20px;
          }
 
+
+
+
+         #mainImgImgs{
+            width: 500px;
+            max-width: 70vw;
+            height: auto;
+         }
+         .imgsinphotos{
+            max-width: 40vw;
+            width: 200px;
+            padding: 20px;
+         }
+         
+         
+         #rightBtnunImgPage{
+            position: absolute;
+            right: 10px;
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            border-radius: 50%;
+         }
+         
+         #leftBtnunImgPage{
+            position: absolute;
+            left: 10px;
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            border-radius: 50%;
+         }
             
-            
+      
+         #video{
+            width: 400px;
+            max-width: 70vw;
+         }
      
 
 }
@@ -490,5 +559,39 @@ footer{
    }
  
    
+   #mainImgImgs{
+      width: 400px;
+      max-width: 70vw;
+      height: auto;
+   }
+   .imgsinphotos{
+      max-width: 50vw;
+      width: 190px;
+      height: auto;
+      padding: 20px;
+   }
+   
+   
+   #rightBtnunImgPage{
+      position: absolute;
+      right: 10px;
+      height: 30px;
+      width: 30px;
+      background-color: white;
+      border-radius: 50%;
+   }
+   
+   #leftBtnunImgPage{
+      position: absolute;
+      left: 10px;
+      height: 30px;
+      width: 30px;
+      background-color: white;
+      border-radius: 50%;
+   }
 
+   #video{
+      width: 400px;
+      max-width: 70vw;
+   }
 }

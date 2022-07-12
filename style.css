@@ -316,6 +316,79 @@ footer{
 
 
 
+.mainCallUs{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   max-width: 1000px;
+}
+
+#iconsIncallUs{
+   margin-inline: 50px;
+}
+
+#iconsIncallUs1 a{
+display: flex;
+align-items: center;
+color: green;
+}
+
+#iconsIncallUs1 a svg{
+   width: 40px;
+   margin: 20px;
+} 
+
+#iconsIncallUs2 a{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+ 
+}
+
+
+#iconsIncallUs2 a svg{
+   width: 40px;
+   margin: 20px;
+
+}
+
+#iconsIncallUs3 a{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   color: black;
+}
+
+#iconsIncallUs3 a svg{
+   width: 40px;
+   margin: 20px;  
+   background-image: linear-gradient(#002296,#82008f,#C0007a,#ea0C5F);
+   color: white;
+   padding: 10px;
+}
+
+
+
+form{
+   margin-block: 20px;
+}
+.inputCallUs{
+   display: flex;
+   margin-block-end: 40px;
+   padding: 16px;
+   border-radius: 20px;
+}
+
+#submitCallUs{
+   padding: 10px;
+   border-radius: 10px;
+   background-color: #5e60ce;
+   color: white;
+}
+
+
+
+
 
 
 

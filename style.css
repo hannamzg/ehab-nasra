@@ -19,6 +19,9 @@
 
 header{
     background-image: linear-gradient(to bottom right, #caf0f8, #48cae4);
+    position: sticky;
+    top: 0;
+    z-index: 10000;
 }
 
 #theNavFirstPage{
@@ -55,16 +58,20 @@ header{
 
 .stkiyIcones{
    position: fixed;
-   bottom: 0;
+   bottom: 20px ;
    left: 10px;
    display: flex;
    flex-direction: column;
    z-index: 1000;
+ 
 }
 
-.stkiyIcones a svg{
+.stkiyIcones a svg{ 
+    border-radius: 50%;
    height: 60px;
    margin-block: 10px;
+ 
+   border-radius: 50%;
 }
 
 
@@ -321,16 +328,21 @@ footer{
    justify-content: space-around;
    flex-wrap: wrap;
    max-width: 1000px;
+   margin: 0 auto;
 }
 
 #iconsIncallUs{
-   margin-inline: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   
 }
 
 #iconsIncallUs1 a{
 display: flex;
 align-items: center;
 color: green;
+
 }
 
 #iconsIncallUs1 a svg{
